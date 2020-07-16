@@ -1,13 +1,14 @@
-git config --global user.name blabla
-git config --global user.email blabal@bla
-git init
-git status
-git add
-git commit
-git log
-git checkout
-git branch
-git push
-git pull
-git merge
-git clone
+git config --global user.name blabla - введення глобального імені
+git config --global user.email blabal@bla - введеня імейлу(зареєстрованого на Гіт Хабі)
+git init - ініціація Гіт в папці (локальному репозиторії)
+git status - перевірка статусу , які є файли в папці, чи є зміни в очікуванні
+git add - індексує зміни , що очікують на коміт 
+git commit - підтверджує внесені зміни
+git log - історія змін в репозиторії (включно з перейменуванням)
+git checkout (назва гілки) - переходить в нову бранчу (гілку)
+git branch - список гілок (бранчів)
+git branch (назва нової гілки) - створює нову гілку 
+git push - загружає зміни з локального репозиторію на віддалений
+git pull - завантажує зміни з віддаленого репозиторії на локальний
+git merge - з"єднує дві гілки , завантажує зміни з гілки віддаленого репозиторію, в поточну гілку локального
+git clone - завантажує віддалений репозиторій разом зі всіма змінами
